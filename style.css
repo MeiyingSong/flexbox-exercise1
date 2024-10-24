@@ -1,0 +1,30 @@
+.exercise1 nav {
+    display: flex;
+    justify-content: flex-start; /* center flex-end */
+}
+
+.exercise2 .card {
+    display: flex;
+}
+
+.exercise2 .card h2 {
+    order: -1;
+}
+
+.exercise2 .card img {
+    order: 2;
+}
+
+.exercise3 .image-card {
+    display: flex;
+}
+
+.exercise3 .image-card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.exercise4 .game-card {
+    display: flex;
+}
